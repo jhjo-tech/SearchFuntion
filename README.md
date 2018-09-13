@@ -11,5 +11,5 @@
 
 ### **[동영상 보기]**
 
-[![Watch the video](http://img.youtube.com/vi/nspI72RRgeI/1.jpg)](https://youtu.be/nspI72RRgel)
+[![Watch the video](http://img.youtube.com/vi/nspI72RRgeI/1.jpg)](https://www.youtube.com/watch?v=nspI72RRgeI&t=0s)
 
