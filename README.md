@@ -8,3 +8,8 @@
 또 앱을 지우지 않는 이상 검색 히스토리를 남아있도록 하기 위해 UserDefault를 사용해서 데이터를 저장한뒤 불러오도록 하였습니다.
 
 아이콘은 X를 누르면 검색 히스토리가 삭제 되도록 구현하였습니다.
+
+### **[동영상 보기]**
+
+[![Watch the video](http://img.youtube.com/vi/nspI72RRgeI/1.jpg)](https://youtu.be/nspI72RRgel)
+
