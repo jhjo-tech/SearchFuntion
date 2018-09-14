@@ -15,7 +15,9 @@ struct API {
 struct GetService {
     func search (words: String, completion: @escaping ([Search]) -> ()) {
         
-        guard let url = (API.searchURL + words).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
+        guard let encoding = words.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
+        
+        let url = API.searchURL + encoding
         
         let alramofire = Alamofire.request(url).validate(statusCode: 200..<400)
         alramofire.responseData { (response) in
